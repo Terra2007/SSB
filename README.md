@@ -1,2 +1,2 @@
-# SSP
+# SSB
 Study Spring Boot
