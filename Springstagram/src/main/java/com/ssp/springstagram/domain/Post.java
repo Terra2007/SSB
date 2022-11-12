@@ -6,7 +6,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.time.LocalDateTime;
 
 @Getter
 @NoArgsConstructor
@@ -14,7 +13,7 @@ import java.time.LocalDateTime;
 @Table(name = "post")
 @Builder
 @Entity
-public class Post extends BasePost{
+public class Post extends BasePost {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
